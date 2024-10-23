@@ -1,8 +1,5 @@
 import java.util.Scanner;
-class ParametrosInvalidosException extends Exception {
-    public ParametrosInvalidosException(String message) {
-        super(message);
-    }
+
 public class Contador {
 	public static void main(String[] args) {
         Scanner terminal = new Scanner(System.in);
@@ -28,5 +25,4 @@ public class Contador {
             System.out.println("Imprimindo o número " + i);
         }
     }
-}
-}
+ }
